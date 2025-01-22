@@ -100,6 +100,41 @@ a:hover {
   font-size: 0.9em;
 }
 
+/* Tile Container */
+.tile-container {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap; /* Ensures tiles wrap on smaller screens */
+  justify-content: space-between; /* Adds space between tiles */
+  gap: 25px; /* Spacing between tiles */
+  margin-bottom: 25px; /* Adds space below the tiles */
+}
+
+/* Individual Tiles */
+.tile {
+  background-color: #2d2f39; /* Matches .block background */
+  padding: 20px; /* Inner padding for content */
+  flex: 0 1 calc(45% - 10px); /* Two tiles per row with a gap */
+  text-align: center; /* Centers content inside the tile */
+  border-radius: 5px; /* Optional: Adds rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a shadow for depth */
+  color: #7f8d9e; /* Text color */
+  transition: transform 0.2s ease; /* Adds hover animation */
+}
+
+/* Tile Hover Effect */
+.tile:hover {
+  transform: scale(1.05); /* Slightly enlarges on hover */
+  background-color: #3a3c45; /* Optional: Changes background on hover */
+}
+
+
+@media (max-width: 768px) {
+  .tile {
+    flex: 0 1 100%; /* Make tiles take full width when stacked */
+  }
+}
+
 .links {
   margin-top: 25px;
 }
@@ -270,6 +305,11 @@ a.link:hover {
   box-shadow: 8px 8px 14px -8px #2b3137;
 }
 
+.goodreads {
+  background-color: #ece9d4;
+  box-shadow: 8px 8px 14px -8px #ece9d4;
+}
+
 .google {
   background-color: #ffffff;
   box-shadow: 8px 8px 14px -8px #ffffff;
@@ -303,4 +343,13 @@ a.link:hover {
 .youtube {
   background-color: #ff0000;
   box-shadow: 8px 8px 14px -8px #ff0000;
+}
+
+
+.footer {
+  background-color: #2d2f39; /* Matches .block background */
+  padding: 20px; /* Inner padding for content */
+  margin-bottom: 0px;
+  font-size: .8em;
+  text-align: right;
 }
