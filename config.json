@@ -1,0 +1,66 @@
+{
+  "site": {
+    "title": "Win Pratt Everywhere",
+    "description": "Links to useful pages for my followers",
+    "favicon": "/images/favicon.svg"
+  },
+  "profile": {
+    "name": "Win Pratt",
+    "location": "Raleigh, NC",
+    "bio": "Analytics development and fun projects.",
+    "avatar": "images/profile.jpg",
+    "avatarAlt": "Portrait of Win Pratt",
+    "email": "windleypratt@gmail.com",
+    "emailLabel": "Email"
+  },
+  "links": [
+    {
+      "title": "LinkedIn",
+      "subtitle": "linkedin.com/in/windleypratt",
+      "url": "https://www.linkedin.com/in/windleypratt/",
+      "icon": "images/linkedin.svg"
+    },
+    {
+      "title": "GitHub",
+      "subtitle": "github.com/windleypratt",
+      "url": "https://github.com/windleypratt/",
+      "icon": "images/github.svg"
+    },
+    {
+      "title": "BlueSky",
+      "subtitle": "@winpratt.com",
+      "url": "https://bsky.app/profile/winpratt.com",
+      "icon": "images/bluesky.svg"
+    },
+    {
+      "title": "Instagram",
+      "subtitle": "@winpratt",
+      "url": "https://instagram.com/winpratt",
+      "icon": "images/instagram.svg"
+    },
+    {
+      "title": "StoryGraph",
+      "subtitle": "windleypratt",
+      "url": "https://app.thestorygraph.com/profile/windleypratt",
+      "icon": "images/storygraph.png"
+    },
+    {
+      "title": "Goodreads",
+      "subtitle": "win-pratt",
+      "url": "https://www.goodreads.com/user/show/4080864-win-pratt",
+      "icon": "images/goodreads.svg"
+    },
+    {
+      "title": "YAFSB.com",
+      "subtitle": "Fantasy football analytics, advice, and other goodies.",
+      "url": "https://yafsb.com",
+      "type": "project"
+    },
+    {
+      "title": "NC Whiskey",
+      "subtitle": "Keeping up with bourbon in North Carolina.",
+      "url": "https://nc-whiskey.com",
+      "type": "project"
+    }
+  ]
+}
